@@ -11,9 +11,9 @@ let participants = [
 ]
 
 
-export const availableNames = () => {
+export const availableNames = (person) => {
     return participants
-        .filter((p) => !p.Assigned)
+        .filter((p) => !p.Assigned && p.Name !== person)
         .map((p) => p.Name);
 };
 

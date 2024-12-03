@@ -8,7 +8,7 @@ export default function handler(req, res) {
             return res.status(400).json({ error: "No name provided" });
         }
 
-        if (!availableNames().length) {
+        if (!availableNames(person).length) {
             return res.status(400).json({ error: "No more names available" });
         }
 
@@ -16,8 +16,8 @@ export default function handler(req, res) {
             return res.status(400).json({ error: "You have already received a name" });
         }
 
-        const randomIndex = Math.floor(Math.random() * availableNames().length);
-        const secretSantaName = availableNames()[randomIndex];
+        const randomIndex = Math.floor(Math.random() * availableNames(person).length);
+        const secretSantaName = availableNames(person)[randomIndex];
         updateParticipants(person, secretSantaName);
         return res.status(200).json({ name: secretSantaName });
 
