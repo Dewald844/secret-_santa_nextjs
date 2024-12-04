@@ -1,14 +1,16 @@
 let participants = [
-    {Name : "Dewald"   , Assigned : false, Received : false},
-    {Name : "Anja"     , Assigned : false, Received : false},
-    {Name : "Johan SNR", Assigned : false, Received : false},
-    {Name : "Johan JNR", Assigned : false, Received : false},
-    {Name : "Louis"    , Assigned : false, Received : false},
-    {Name : "Marichen" , Assigned : false, Received : false},
-    {Name : "Marie"    , Assigned : false, Received : false},
-    {Name : "Francois" , Assigned : false, Received : false},
-    {Name : "Sonneke " , Assigned : false, Received : false},
-    {Name : "Ma rietjie " , Assigned : false, Received : false},
+    {Name : "Dewald"      , Assigned : false, Received : false},
+    {Name : "Anja"        , Assigned : false, Received : false},
+    {Name : "Johan SNR"   , Assigned : false, Received : false},
+    {Name : "Johan JNR"   , Assigned : false, Received : false},
+    {Name : "Louis"       , Assigned : false, Received : false},
+    {Name : "Marichen"    , Assigned : false, Received : false},
+    {Name : "Mari"        , Assigned : false, Received : false},
+    {Name : "Francois"    , Assigned : false, Received : false},
+    {Name : "Sonneke"     , Assigned : false, Received : false},
+    {Name : "Marietjie"   , Assigned : false, Received : false},
+    {Name : "Schalk"      , Assigned : false, Received : false},
+    {Name : "Nele"        , Assigned : false, Received : false},
 ]
 
 
