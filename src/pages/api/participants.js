@@ -8,6 +8,7 @@ let participants = [
     {Name : "Marie"    , Assigned : false, Received : false},
     {Name : "Francois" , Assigned : false, Received : false},
     {Name : "Sonneke " , Assigned : false, Received : false},
+    {Name : "Ma rietjie " , Assigned : false, Received : false},
 ]
 
 
